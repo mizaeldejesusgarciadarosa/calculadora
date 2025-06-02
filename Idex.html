@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calculadora</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -13,7 +14,7 @@
     <input type="number" id="valor1" placeholder="Digite o 1º número" />
   <input type="number" id="valor2" placeholder="Digite o 2º número" />
 
-  
+
   <select name="" id="operacao">
 
     <option value="+">soma(+)</option>
@@ -22,6 +23,12 @@
     <option value="/">divisão(/)</option>
 
   </select>
-    
+
+  <button onclick="calcular()">calcular</button>
+
+
+  <div id="resultado"></div>
+  <script src="script.js"></script>
+
 </body>
 </html>
